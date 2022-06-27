@@ -1,7 +1,7 @@
 import prompt
 
 
-def game(task_string, get_brain_task, user_name):
+def generate_round(task_string, get_brain_task, user_name):
     print(f'{task_string}')
     count_answer = 0
     result_phrase = ''
