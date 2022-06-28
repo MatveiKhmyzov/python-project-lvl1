@@ -14,8 +14,10 @@ def generate_round(task_string, get_brain_task, user_name):
             print('Correct!')
         else:
             count_answer = 4
-            result_phrase = print(f'"{user_answer}" is wrong answer ;(.'
-                                  f'Correct answer was "{correct_answer}".')
+            result_phrase = print(f''''{user_answer}' is wrong answer ;(.'''
+                                  f'''Correct answer was '''
+                                  f''''{correct_answer}'.\n'''
+                                  f'''Let's try again, {user_name}!''')
         if count_answer == 3:
             result_phrase = print(f'Congratulations, {user_name}!')
     return result_phrase
