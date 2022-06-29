@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Simple question-and-answer game"
 authors = ["Matvei Khmyzov <matw.hmizov@yandex.ru>"]
 packages = [
   {  include = "brain_games" },
@@ -23,6 +23,12 @@ brain-prime = "brain_games.scripts.brain_prime:main"
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.urls]
+"Brain Games" = "hhttps://github.com/MatveiKhmyzov/python-project-lvl1.git"
+
