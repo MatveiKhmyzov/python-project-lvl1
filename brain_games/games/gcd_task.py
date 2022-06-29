@@ -19,4 +19,5 @@ def get_gcd_task():
             number_2 = number_1
             number_1 = remainder
     correct_answer = number_1 if abs(number_1) > abs(number_2) else number_2
-    return pair_number, str(correct_answer)
+    pair = ' '.join(str(pair_number[i]) for i in range(2))
+    return pair, str(correct_answer)
