@@ -15,5 +15,5 @@ def get_progression_task():
         row.append(first_element)
     correct_answer = str(row[hidden_element])
     row[hidden_element] = '..'
-    progression = ', '.join(str(row[i]) for i in range(len(row)))
+    progression = ' '.join(str(row[i]) for i in range(len(row)))
     return progression, correct_answer
