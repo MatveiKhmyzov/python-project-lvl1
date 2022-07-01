@@ -1,7 +1,7 @@
 from random import randint
 
 
-task_string = 'Answer "yes" if number is even, otherwise answer "no".'
+TASK_STRING = 'Answer "yes" if number is even, otherwise answer "no".'
 
 
 def get_even_task():

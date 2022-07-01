@@ -1,7 +1,7 @@
 from random import randint
 
 
-task_string = 'Find the greatest common divisor of given numbers.'
+TASK_STRING = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gcd_task():
