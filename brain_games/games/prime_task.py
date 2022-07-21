@@ -2,10 +2,12 @@ from random import randint
 
 
 TASK_STRING = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MIN_NUMBER = 2
+MAX_NUMBER = 100
 
 
 def get_number():
-    random_number = randint(2, 100)
+    random_number = randint(MIN_NUMBER, MAX_NUMBER)
     return random_number
 
 
